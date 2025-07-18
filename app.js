@@ -9,6 +9,10 @@ button.addEventListener("click", function (event) {
   const deltbtn = document.createElement("button");
   const done = document.createElement("button");
 
+  if ((text = "")) {
+    return;
+  }
+
   const span = document.createElement("span");
   span.textContent = text;
 
