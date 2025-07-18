@@ -9,7 +9,7 @@ button.addEventListener("click", function (event) {
   const deltbtn = document.createElement("button");
   const done = document.createElement("button");
 
-  if ((text = "")) {
+  if (text === "") {
     return;
   }
 
